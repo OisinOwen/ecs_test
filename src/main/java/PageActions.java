@@ -16,10 +16,6 @@ public class PageActions extends BaseTest {
     public void goToChallenge(){
         click(objects.renderTestButton);
         click(objects.renderTestButton);
-//        Actions action = new Actions(driver);
-//        action.moveToElement(driver.findElement(objects.answer1));
-//        action.build().perform();
-
     }
 
     public String getText(By elementLocator){
